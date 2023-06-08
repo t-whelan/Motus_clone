@@ -6,6 +6,9 @@
     <title>Motus clone Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="src/styles.css">
+  <!-- Font awesome link -->
+  <script src="https://kit.fontawesome.com/74508648c8.js" crossorigin="anonymous"></script>
+
 </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
@@ -16,10 +19,11 @@
   <div class="container">
     <header class="d-flex justify-content-center py-3">
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+        <li class="nav-item"><a href="https://motus.cars/new-cars?utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="nav-link">New cars</a></li>
+        <li class="nav-item"><a href="https://motus.cars/shop-cars-for-sale/used?utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="nav-link">Used cars</a></li>
+        <li class="nav-item"><a href="https://motus.cars/shop-cars-for-sale/demo?utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="nav-link">Demo cars</a></li>
+        <li class="nav-item"><a href="https://motus.cars/contact-us?utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="nav-link">Contact us</a></li>
+        
       </ul>
     </header>
   </div>
@@ -27,10 +31,11 @@
   <div class="b-example-divider"></div>
 
   <div class="container">
+    <img src="/images/motus_logo.jpg" width="250px" class="logo" >
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
       <div class="col-md-3 mb-2 mb-md-0">
         <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-          <img src="/images/motus_logo.jpg" width="250px" class="logo" >
+          
         <span class="fs-4"></span>
     
       </div>
@@ -39,20 +44,83 @@
 <div class="container my-5">
     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
       <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+
         <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Welcome To Motus</h1>
         <p class="lead"></p>We will improve people's lives by envisioning, innovating and creating new access to leading edge mobility solutions.<br>
         Motus is South Africa’s leading automotive group, employing over 19 250 people globally, and is a multi-national provider of automotive mobility solutions, and vehicle products and services. We are a diversified (non-manufacturing) business in the automotive sector with unrivalled scale and scope in South Africa, a selected international presence primarily in the UK and Australia, as well as a limited presence in South East Asia and Southern and East Africa.
     </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Find dealer</button>
+          <button type="button" class="btn btn-outline-danger btn-lg px-4">Book service</button>
         </div>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <img class="rounded-lg-3" src="/images/cars.jpg" alt="header image for Motus" width="720">
       </div>
     </div>
-  </div>
+    <!-- Second header section -->
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="display-3 fw-bold">Journey with us <br>-Motus</h1>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+          <a class="icon-link" href="#">
+          
+            <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+          </a>
+          <a class="icon-link" href="#">
+      
+            <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+  
+ 
+<!-- Featured products section -->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Find your next...</h2>
+    <i class="fa-regular fa-cars"></i>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <i class="fa-sharp fa-solid fa-cars"></i>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">"Let's take a drive"</h3>
+        <p>Wide selection of demo, used and Brand new cars.
+          From classics like Hyndai, kia, Citroen And Toyota, to higher end Mercedes, BMW ,Volkswagen .ect
+        </p>
+        <a href="https://motus.cars/promotions?utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="icon-link">
+          Explore
+        
+          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"/></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">"Room for one more"</h3>
+        <p>Family cars and SUV's for Roadtrips amd Vacations for larger families ,More space ,Less hassle.</p>
+        <a href="https://motus.cars/shop-your-next-car/family-suv?make=audi&make=bmw&make=chevrolet&make=ford&make=hyundai&make=lexus&make=land%20rover&make=jeep&make=kia&make=mahindra&make=mercedes-benz&make=mitsubishi&make=porsche&make=subaru&make=toyota&make=volkswagen&make=volvo&make=nissan&model=sq5&model=q5&model=q7&model=q8&model=x-series&model=captiva&model=trailblazer&model=orlando&model=everest&model=territory&model=santa%20fe&model=tucson&model=lx&model=discovery&model=range%20rover&model=compass&model=cherokee&model=grand&model=sorento&model=sportage&model=glc&model=g-class&model=gls&model=pajero&model=pathfinder&model=xc70&model=xc90&model=xd90&model=touareg&model=prado&model=fortuner&model=forester&model=tribeca&sale=false&sort=price&sortdirection=asc&page=1&pagesize=12&layout=grid&utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="icon-link">
+          Explore
+          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">"Lets show off"</h3>
+        <p>Luxury and Lavish Range of higher end cars. For the bold , beautiful and need for speed.</p>
+        <a href="https://motus.cars/shop-your-next-car/luxury-brand-under-r250k?make=mercedes-benz&make=audi&make=bmw&make=lexus&make=jaguar&make=volvo&make=land%20rover&priceto=250000&sale=false&sort=price&sortdirection=asc&page=1&pagesize=60&layout=grid&utm_source=google&utm_medium=cpc&utm_campaign=PerformanceMax&utm_content=Motus.cars-SKPMax-CPC&utm_term=SearchKings" class="icon-link">
+          Explore
+          <svg class="bi"><use xlink:href="#chevron-right"/></svg>
+        </a>
+      </div>
+    </div>
+
 
 
 
